@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "graphcallpoc",
+    "libraryId": "ef128420-9aff-401a-aa6e-3b20e5708025",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

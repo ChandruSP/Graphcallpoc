@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "graph-poc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphPoc/GraphPocWebPart.js",
+          "manifest": "./src/webparts/graphPoc/GraphPocWebPart.manifest.json"
+        }
+      ]
+    },
+    "graph-call-two-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/graphCallTwo/GraphCallTwoWebPart.js",
+          "manifest": "./src/webparts/graphCallTwo/GraphCallTwoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GraphPocWebPartStrings": "lib/webparts/graphPoc/loc/{locale}.js",
+    "GraphCallTwoWebPartStrings": "lib/webparts/graphCallTwo/loc/{locale}.js"
+  }
+}
