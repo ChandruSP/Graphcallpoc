@@ -13,7 +13,7 @@ import * as MicrosoftGraph from '@microsoft/microsoft-graph-types';
 import { GraphError } from '@microsoft/microsoft-graph-client';
 
 export interface IGraphCallTwoWebPartProps {
-  description: any;
+  description: any|string;
 }
 
 export default class GraphCallTwoWebPart extends BaseClientSideWebPart<IGraphCallTwoWebPartProps> {
